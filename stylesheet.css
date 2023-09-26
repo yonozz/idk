@@ -24,21 +24,21 @@ body {
 }
 .youtube {
     position: absolute;
-    top: 75%;
+    top: 80%;
     bottom: 50%;
     right: 50%;
-    left: 20%;
+    left: 22%;
 }
 .spotify {
     position: absolute;
-    top: 75%;
+    top: 80%;
     bottom: 50%;
     right: 50%;
     left: 45%;
 }
 .instagram {
     position: absolute;
-    top: 74%;
+    top: 79%;
     bottom: 50%;
     right: 50%;
     left: 65%;
@@ -50,5 +50,4 @@ div {
     padding: 120px;
     margin: -185px;
     height: 100px;
-    backdrop-filter: blur(10px);
 }
