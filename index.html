@@ -1,22 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title><3 minha esposa</title>
-        <link rel="shortcut icon" href="img/terabitia.jpg" type="image/x-icon">
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="mainjs" href="main.js">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eu ❤ minha esposa</title>
+    <link rel="shortcut icon" href="img/love.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <button id="toggleSnowButton" class="botao">💧</button>
+    <div class="snow-container">
+        <!-- Cada span representará um floco de neve -->
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+        <span class="snowflake"></span>
+    </div>
+    <section class="box1">
+        <div class="audio-player">
+            <!-- Adiciona a imagem da música e o nome da música acima da barra de progresso -->
+            <div class="track-info">
+                <img src="img/TheTrumanShow.jpg" alt="Album Cover" class="album-cover">
+                <span class="track-name">godmusic</span>
+            </div>
+            <div class="controls">
+                <button id="play-pause" class="play">▶</button>
+                <input type="range" id="seekbar" value="0" max="100">
+                <span id="current-time" class="tempo">0:00</span> / <span id="duration" class="tempo">0:00</span>
+            </div>
+            <audio id="audio" src="sound/LateNiteValentino.mp3"></audio>
+        </div>
 
-    <body>
-        <section class="box1">
-            
-            <div class="div1">
-                <button id="changeColorButton" class="butao">💡</button>
-
-            <img class="icon" src="img/afc6ac0898617b2d88c664f7df0ae631.png" alt="icon" width="150px">
+        <div class="div1">
+            <button id="changeColorButton" class="butao">💡</button>
+            <img class="icon" src="img/pfp.jpg" alt="icon" width="200px">
             <a href="https://www.youtube.com/@yxnozz" target="_blank">
                 <img class="youtube" src="img/youtube.png" alt="youtube logo" width="60px">
             </a>
@@ -29,10 +62,10 @@
             <a href="https://x.com/zachaiashi" target="_blank">
                 <img class="twitter" src="img/twitter.png" alt="twitter logo" width="51px">
             </a>
-                <h1 id="h1" class="text1" style="font-size: 60px;">yono</h1>
-                <p id="p1" class="text2">trying to don't be crazy</p>
-            </div>
-        </section>
-    </body>
+            <h1 id="h1" class="text1" style="font-size: 60px;">zachaiashi</h1>
+            <p id="p1" class="text2">trying to don't be crazy</p>
+        </div>
+    </section>
     <script src="main.js"></script>
+</body>
 </html>
